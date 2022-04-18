@@ -1,3 +1,14 @@
-body {
-    background: blue;
+div#header > h1 {
+    color: rgb(54, 62, 136);
+    margin-bottom: 0px;
+}
+
+div#header > h2 {
+    color: rgb(153, 130, 3);
+    margin-top: 0px;
+    font-size: 15;
+}
+
+div#header {
+    text-align: center;
 }
