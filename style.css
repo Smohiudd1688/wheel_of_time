@@ -13,7 +13,7 @@ div#header {
     text-align: center;
 }
 
-div#aboutSection {
+div {
     padding-top: 1%;
     padding-left: 4%;
     padding-right: 4%;
@@ -24,9 +24,20 @@ h3 {
     font-size: 20px;
 } 
 
-.left {
-    width : 50%;
-    height: 50%;
+div#aboutSection > img {
+    width : 45%;
+    height: 40%;
     float: left;
     padding-right: 2%;
+}
+
+figure > img {
+    width: 17%;
+    height: 20%;
+    float: left;
+}
+
+figcaption {
+    font-family: fantasy;
+    font-weight: 900;
 }
